@@ -1,0 +1,79 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*credentials*.json
+*service-account*.json
+sera_config.json
+secrets.yaml
+secrets.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv.broken/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+out/
+coverage/
+.turbo/
+.parcel-cache/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+
+# Models, datasets, binaries
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.bin
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.whl
+*.apk
+*.aab
+*.exe
+*.msi
+*.dll
+*.so
+*.dylib
+*.lib
+*.pdb
+
+# Logs
+*.log
+*.err
+*.out
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.vs/

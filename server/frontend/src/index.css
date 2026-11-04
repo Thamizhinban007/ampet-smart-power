@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  color-scheme: dark;
+  --bg-primary: #0b1220;
+  --bg-secondary: #111827;
+  --bg-card: #1a2332;
+  --border: #2a3548;
+  --text-primary: #f1f5f9;
+  --text-muted: #94a3b8;
+  --accent: #3b82f6;
+  --safe: #22c55e;
+  --suspected: #f59e0b;
+  --theft: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.leaflet-container {
+  background: #0f172a;
+  border-radius: 0.75rem;
+}
